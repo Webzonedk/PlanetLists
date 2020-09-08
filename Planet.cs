@@ -107,7 +107,7 @@ namespace Planeterne
                     return "No";
                 }
             }
-            // set { ringSystems = value; }
+             //set { ringSystems = value; }
         }
 
 
@@ -144,7 +144,7 @@ namespace Planeterne
             OrbitalVelocity = orbitalVelocity;
             MeanTemperature = meanTemperature;
             NumberOfMoons = numberOfMoons;
-            //RingSystems = ringSystems;
+            this.ringSystems = ringSystems;
         }
 
     }
